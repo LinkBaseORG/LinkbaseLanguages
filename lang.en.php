@@ -95,7 +95,7 @@ $lang['pricing_largeInclude']   = '920px * 120px (+red star)';
 $lang['pricing_perMonth']       = 'per month';
 $lang['pricing_contactUs']      = 'Contact us';
 // Search Site
-$lang['search_nameText']                = 'Name:';
+$lang['search_nameText']                = 'Name';
 $lang['search_languageText']            = 'Language';
 // Contact us Site
 $lang['contact_donateText']             = 'Donate, to keep this service alive :';
@@ -258,7 +258,7 @@ $lang['vpn_webproxy']           = 'Webproxy';
 $lang['vpn_checker']            = 'Checker';
 // Warez Category
 $lang['warez_boards']           = 'Boards';
-$lang['warez_anime']            = 'Anime / Hentai / Manga ';
+$lang['warez_anime']            = 'Anime / Hentai / Manga';
 $lang['warez_tvstream']         = 'TV Stream';
 $lang['warez_ftp']              = 'FTP / FXP';
 $lang['warez_documentation']    = 'Documentation';
