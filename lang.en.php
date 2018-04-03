@@ -10,7 +10,7 @@ $lang['navigation_languages_english']       = 'English';
 $lang['navigation_languages_german']        = 'German';
 $lang['navigation_languages_russian']       = 'Russian';
 // Navigation
-$lang['navigation__toggle']         = 'Toggle navigation';
+$lang['navigation_toggle']         = 'Toggle navigation';
 $lang['navigation_home']            = 'Home';
 // NavigationSub
 $lang['navigation_boards']          = 'Boards';
@@ -131,12 +131,6 @@ $lang['hosting_head']         = '';
 $lang['hosting_service']      = 'Service';
 $lang['hosting_creditcard']   = 'Creditcard';
 $lang['hosting_locations']    = 'Locations';
-$lang['hosting_previous']     = 'Previous';
-$lang['hosting_next']         = 'Next';
-$lang['hosting_showing']      = 'Showing';
-$lang['hosting_to']           = 'to';
-$lang['hosting_of']           = 'of';
-$lang['hosting_entries']      = 'entries';
 $lang['hosting_yes']          = 'Yes';
 $lang['hosting_no']           = 'No';
 
