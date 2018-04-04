@@ -214,7 +214,7 @@ $lang['shops_icq']              = 'ICQ';
 $lang['shops_drugs']            = 'Drugs';
 $lang['shops_rdp']              = 'Rdp / Smtp';
 $lang['shops_flood']            = 'Flood';
-$lang['shops_exploit']          = 'Explot';
+$lang['shops_exploit']          = 'Exploit';
 $lang['shops_cccheck']          = 'CC Checker';
 $lang['shops_iptv']             = 'IPTV';
 $lang['shops_other']            = 'Other';
@@ -253,7 +253,7 @@ $lang['vpn_webproxy']           = 'Webproxy';
 $lang['vpn_checker']            = 'Checker';
 // Warez Category
 $lang['warez_boards']           = 'Boards';
-$lang['warez_anime']            = 'Anime / Hentai / Manga';
+$lang['warez_anime']            = 'Anime / Hentai / Manga ';
 $lang['warez_tvstream']         = 'TV Stream';
 $lang['warez_ftp']              = 'FTP / FXP';
 $lang['warez_documentation']    = 'Documentation';
