@@ -75,7 +75,7 @@ $lang['sidebar_statistics_offline']   = 'offline';
 $lang['sidebar_statistics_languages'] = 'languages';
 $lang['sidebar_statistics_total']     = 'total';
 $lang['sidebar_advertisement']        = 'Advertisement';
-$lang['sidebar_version']              = 'Version 4.0';
+$lang['sidebar_version']              = 'Version 4.1';
 $lang['sidebar_version_changelog']    = 'Changelog';
 // Link us site
 $lang['linkus_htmlCodeText']      = 'Get the code to insert our banner in your website.';
