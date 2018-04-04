@@ -45,7 +45,7 @@ $lang['navigation_breadcrumb_home']       = 'Home';
 $lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud board';
 $lang['navigation_breadcrumb_tor']        = 'Show only tor boards';
 $lang['navigation_breadcrumb_i2p']        = 'Show only I2P boards';
-$lang['navigation_breadcrumb_search']     = 'Show all board informations';
+$lang['navigation_breadcrumb_search']     = 'Search results';
 $lang['navigation_breadcrumb_blogs']      = 'Security & hacking blogs';
 $lang['navigation_breadcrumb_shops']      = 'Shops';
 $lang['navigation_breadcrumb_warez']      = 'Warez';
@@ -63,6 +63,7 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 // Subnavigation
 $lang['subnavigation_lastDbUpdate']       = 'Last db update';
 // Sidebar
+$lang['sidebar_searchPlaceholder']    = 'Search';
 $lang['sidebar_quicklinks']           = 'Quicklinks';
 $lang['sidebar_boardDetailView']      = 'Forum detail view';
 $lang['sidebar_linkQueue']            = 'Link queue';
