@@ -140,6 +140,7 @@ $lang['hosting_infoText']         = 'Norton explores the secret world of bulletp
 isolated at sea, and spread across the Web. Uncover the threats that lie within these services, such as botnets,
 malware, ransomware, and the black market, and learn how to protect yourself in <i class="fa fa-youtube-play" aria-hidden="true"></i>
 “<a target="_blank" href="https://www.youtube.com/watch?v=CashAq5RToM"><b>The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide</b></a>”';
+$lang['hosting_infoStartVideo']     = 'Запустить видео';
 // Footer
 $lang['footer_generatedInStart'] = 'Page generated in ';
 $lang['footer_generatedInEnd']   = ' seconds.';
