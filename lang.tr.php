@@ -137,6 +137,7 @@ $lang['hosting_infoTextHead']     = 'Bilgi!';
 $lang['hosting_infoText']         = 'Norton explores the secret world of bulletproof hosting that’s hidden deep in underground bunkers,
 isolated at sea, and spread across the Web. Uncover the threats that lie within these services, such as botnets,
 malware, ransomware, and the black market, and learn how to protect yourself in "The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide"';
+$lang['hosting_infoStartVideo']     = 'Videoyu Başlat';
 // Footer
 $lang['footer_generatedInStart'] = 'Page generated in ';
 $lang['footer_generatedInEnd']   = ' seconds.';
