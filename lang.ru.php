@@ -9,11 +9,12 @@ $lang['navigation_languages']               = 'язык';
 $lang['navigation_languages_english']       = 'английский';
 $lang['navigation_languages_german']        = 'Немецкий';
 $lang['navigation_languages_russian']       = 'русский';
+$lang['navigation_languages_turkish']       = 'турецкий';
 // Navigation
 $lang['navigation_toggle']          = 'Переключить навигацию';
 $lang['navigation_home']            = 'дома';
 // NavigationSub
-$lang['navigation_boards']          = 'Доски';
+$lang['navigation_boards']          = 'форумы';
 $lang['navigation_boards_all']      = 'Все форумы';
 $lang['navigation_boards_noFraud']  = 'Нет мошенничества';
 $lang['navigation_boards_tor']      = 'Только Tor';
@@ -71,7 +72,7 @@ $lang['sidebar_linkQueue_added']      = 'добавленной';
 $lang['sidebar_linkQueue_reported']   = 'сообщается';
 $lang['sidebar_statistics']           = 'Статистика';
 $lang['sidebar_statistics_online']    = 'онлайн';
-$lang['sidebar_statistics_offline']   = 'выключенный';
+$lang['sidebar_statistics_offline']   = 'мертвый';
 $lang['sidebar_statistics_languages'] = 'языки';
 $lang['sidebar_statistics_total']     = 'Всего';
 $lang['sidebar_advertisement']        = 'Реклама';
@@ -84,7 +85,7 @@ $lang['linkus_bbcodeText']        = 'Get the code, to insert our banner in signa
 $lang['donate_headText']              = 'Donate, to keep this service alive :';
 // Changelog site
 $lang['changelog_head']         = 'Изменения';
-$lang['changelog_committed']    = 'committed a new version update';
+$lang['changelog_committed']    = 'выпустила новую версию';
 // Pricing site
 $lang['pricing_smallHead']      = 'небольшой';
 $lang['pricing_smallInclude']   = 'получить признакам "Красная звезда"';
@@ -97,19 +98,28 @@ $lang['pricing_perMonth']       = 'в месяц';
 $lang['pricing_contactUs']      = 'Свяжитесь с нами';
 // Search Site
 $lang['search_nameText']                = 'имя';
-$lang['search_languageText']            = 'язык';
+$lang['search_typeHead']                = 'Тип';
+$lang['search_resetText']               = 'Сбросить поиск';
+$lang['search_category']                = 'категория';
+$lang['search_typeBoard']               = 'Форум';
+$lang['search_typeBlog']                = 'Блог';
+$lang['search_typeWarez']               = 'варез';
+$lang['search_typeVPN']                 = 'VPN';
+$lang['search_typeUseful']              = 'полезным';
+$lang['search_typeShop']                = 'Магазин';
+$lang['search_typeHosting']             = 'Хостинг';
 // Contact us Site
-$lang['contact_donateText']             = 'Donate, to keep this service alive :';
-$lang['contact_contactInformationText'] = 'Contact information:';
-$lang['contact_twitterFollow']          = 'Follow';
-$lang['contact_warningHeader']          = 'Warning!';
-$lang['contact_warningText']            = 'If you want to contact us, use <b>only</b> the shown contact informations on <b>this site</b> to avoid beeing scammed !';
+$lang['contact_donateText']             = 'Пожертвуйте, чтобы сохранить эту службу в живых:';
+$lang['contact_contactInformationText'] = 'Контактная информация:';
+$lang['contact_twitterFollow']          = 'следить';
+$lang['contact_warningHeader']          = 'Предупреждение!';
+$lang['contact_warningText']            = 'Если вы хотите связаться с нами, используйте <b>только</b> указанную информацию о контакте на <b>этом сайте</b>, чтобы избежать обмана!';
 // Report Link Site
 $lang['report_headText']              = 'отчет';
 $lang['report_sitename']              = 'имя';
 $lang['report_url']                   = 'домен';
-$lang['report_reason']                = 'Reason';
-$lang['report_reportBtn']             = 'Report link';
+$lang['report_reason']                = 'причина';
+$lang['report_reportBtn']             = 'доклад ссылка ';
 
 // Add Link Site
 $lang['add_url']                      = 'домен';
@@ -132,18 +142,14 @@ $lang['hosting_head']         = '';
 $lang['hosting_service']      = 'обслуживание';
 $lang['hosting_creditcard']   = 'Кредитная карта';
 $lang['hosting_locations']    = 'Места';
-$lang['hosting_yes']          = 'да';
-$lang['hosting_no']           = 'нет';
-
-$lang['hosting_infoTextHead']     = 'Information!';
-$lang['hosting_infoText']         = 'Norton explores the secret world of bulletproof hosting that’s hidden deep in underground bunkers,
-isolated at sea, and spread across the Web. Uncover the threats that lie within these services, such as botnets,
-malware, ransomware, and the black market, and learn how to protect yourself in <i class="fa fa-youtube-play" aria-hidden="true"></i>
-“<a target="_blank" href="https://www.youtube.com/watch?v=CashAq5RToM"><b>The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide</b></a>”';
-$lang['hosting_infoStartVideo']     = 'Запустить видео';
+$lang['hosting_infoTextHead']     = 'Информация!';
+$lang['hosting_infoText']         = 'Нортон исследует секретный мир пуленепробиваемого хостинга, который скрыт глубоко в подземных бункерах,
+изолированы в море и распространяются через Интернет. Раскрывайте угрозы, которые входят в эти службы, такие как бот-сети,
+вредоносных программ, выкупа и черного рынка, а также узнать, как защитить себя в "The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide"';
+$lang['hosting_infoStartVideo']     = 'Videoyu Başlat';
 // Footer
-$lang['footer_generatedInStart'] = 'Page generated in ';
-$lang['footer_generatedInEnd']   = ' seconds.';
+$lang['footer_generatedInStart'] = 'Страница сгенерирована за ';
+$lang['footer_generatedInEnd']   = ' секунд.';
 // Language Category
 $lang['promoted']        = '&#10035; Повышен';
 $lang['partner']         = 'партнер';
@@ -165,7 +171,7 @@ $lang['id']              = 'индонезийский';
 $lang['it']              = 'итальянский';
 $lang['jp']              = 'Японский';
 $lang['my']              = 'малазийский';
-$lang['fas']              = 'персидский';
+$lang['fas']             = 'персидский';
 $lang['pl']              = 'полировать';
 $lang['pt']              = 'португальский';
 $lang['ro']              = 'румынский';
@@ -179,67 +185,67 @@ $lang['uz']              = 'узбек';
 $lang['vn']              = 'вьетнамский';
 // Shop Category
 $lang['shops_ccv']              = 'Ccv / Dumps';
-$lang['shops_accounts']         = 'Accounts';
+$lang['shops_accounts']         = 'Счета';
 $lang['shops_icq']              = 'ICQ';
-$lang['shops_drugs']            = 'Drugs';
+$lang['shops_drugs']            = 'наркотики';
 $lang['shops_rdp']              = 'Rdp / Smtp';
-$lang['shops_flood']            = 'Flood';
-$lang['shops_exploit']          = 'Exploit';
-$lang['shops_cccheck']          = 'CC Checker';
+$lang['shops_flood']            = 'потоп';
+$lang['shops_exploit']          = 'использовать';
+$lang['shops_cccheck']          = 'CC шашка';
 $lang['shops_iptv']             = 'IPTV';
-$lang['shops_other']            = 'Other';
+$lang['shops_other']            = 'Другие';
 // Useful Category
-$lang['useful_vuln']            = 'Vulnerabilities';
-$lang['useful_unsorted']        = 'Unsorted';
+$lang['useful_vuln']            = 'Уязвимости';
+$lang['useful_unsorted']        = 'несортированный';
 $lang['useful_ffaddons']        = 'Firefox Addons';
-$lang['useful_cryptography']    = 'Cryptography';
-$lang['useful_scanner']         = 'Scanner';
-$lang['useful_antimalware']     = 'Anti Malware';
+$lang['useful_cryptography']    = 'криптография';
+$lang['useful_scanner']         = 'сканер';
+$lang['useful_antimalware']     = 'антивирусная защита';
 $lang['useful_linklist']        = 'Linklists';
 $lang['useful_multiuploader']   = 'Multiuploader';
-$lang['useful_exchanger']       = 'Exchanger';
-$lang['useful_trashmail']       = 'Trash Mail';
-$lang['useful_challenges']      = 'Challenges';
-$lang['useful_securemail']      = 'Secure Mail';
-$lang['useful_cardsharing']     = 'Cardsharing';
+$lang['useful_exchanger']       = 'обменник';
+$lang['useful_trashmail']       = 'Мусорная почта';
+$lang['useful_challenges']      = 'проблемы';
+$lang['useful_securemail']      = 'Безопасная почта';
+$lang['useful_cardsharing']     = 'кардшаринг';
 $lang['useful_toplist']         = 'Toplists';
 $lang['useful_nfo']             = 'NFO';
-$lang['useful_ddosprotect']     = 'DDoS Protection';
-$lang['useful_cryptocurrency']  = 'Cryptocurrency';
-$lang['useful_documentation']   = 'Documentation';
+$lang['useful_ddosprotect']     = 'DDoS защита';
+$lang['useful_cryptocurrency']  = 'криптовалюта';
+$lang['useful_documentation']   = 'Документация';
 $lang['useful_linkcrypter']     = 'Linkcrypter';
 $lang['useful_startpage']       = 'Startpage';
-$lang['useful_telegramgrp']     = 'Telegram Groups';
+$lang['useful_telegramgrp']     = 'Telegram группы';
 $lang['useful_uptimechecker']   = 'Uptime Checker';
 $lang['useful_pastebin']        = 'Pastebin';
-$lang['useful_security']        = 'Security';
+$lang['useful_security']        = 'Безопасность';
 $lang['useful_hackgame']        = 'Hack Game';
 // VPN Category
-$lang['vpn_paidvpn']            = 'Paid VPN';
-$lang['vpn_vpninfo']            = 'VPN Info';
-$lang['vpn_freevpn']            = 'Free VPN';
+$lang['vpn_paidvpn']            = 'оплаченный VPN';
+$lang['vpn_vpninfo']            = 'VPN Информация';
+$lang['vpn_freevpn']            = 'Свободно VPN';
 $lang['vpn_socks']              = 'Socks';
 $lang['vpn_webproxy']           = 'Webproxy';
 $lang['vpn_checker']            = 'Checker';
 // Warez Category
-$lang['warez_boards']           = 'Boards';
-$lang['warez_anime']            = 'Anime / Hentai / Manga ';
-$lang['warez_tvstream']         = 'TV Stream';
+$lang['warez_boards']           = 'форумы';
+$lang['warez_anime']            = 'Anime / Hentai / Manga';
+$lang['warez_tvstream']         = 'Телевизионный поток';
 $lang['warez_ftp']              = 'FTP / FXP';
-$lang['warez_documentation']    = 'Documentation';
+$lang['warez_documentation']    = 'Документация';
 $lang['warez_ebook']            = 'Ebook';
 $lang['warez_xdcc']             = 'XDCC';
-$lang['warez_music']            = 'Music';
-$lang['warez_games']            = 'Games';
-$lang['warez_movies']           = 'Movies';
-$lang['warez_mixed']            = 'Mixed';
+$lang['warez_music']            = 'Музыка';
+$lang['warez_games']            = 'Игры';
+$lang['warez_movies']           = 'Кино';
+$lang['warez_mixed']            = 'смешанный';
 $lang['warez_android']          = 'Android';
 $lang['warez_apple']            = 'Apple';
-$lang['warez_moviestreams']     = 'Movie Stream';
-$lang['warez_search']           = 'Search';
-$lang['warez_porn']             = 'Porn';
+$lang['warez_moviestreams']     = 'Кинопоток';
+$lang['warez_search']           = 'Поиск';
+$lang['warez_porn']             = 'Порно';
 $lang['warez_usenet']           = 'NZB / Usenet';
-$lang['warez_scripts']          = 'Scripts';
+$lang['warez_scripts']          = 'Сценарии';
 $lang['warez_torrent']          = 'Torrent';
 // Board Redirection Site
 $lang['out_home']               = 'дома';
@@ -249,12 +255,12 @@ $lang['out_vote']               = 'Голос';
 $lang['out_closeFrame']         = 'Закрыть iframe';
 $lang['out_redirectingTo']      = 'Перенаправление на ';
 $lang['out_redirectingIn']      = ' через 20 секунд.';
-$lang['out_iframeText1']        = 'Your browser cannot show iframes:';
-$lang['out_iframeText2']        = 'Click here to open requested site:';
+$lang['out_iframeText1']        = 'Ваш браузер не может отображать iframes:';
+$lang['out_iframeText2']        = 'Нажмите здесь, чтобы открыть запрашиваемый сайт:';
 // FAQ site
-$lang['faq_head']                 = 'Frequently Asked Questions';
+$lang['faq_head']               = 'Часто задаваемые вопросы';
 // Link
-$lang['faq_menu_link']                            = 'Link';
+$lang['faq_menu_link']                            = 'Ссылка';
 $lang['faq_menu_link_question_linkStatusColors']  = 'What are the meanings of the different link status colors?';
 $lang['faq_menu_link_answer_linkStatusColors']    = '<span class="fa fa-circle" style="color:green"></span> <font color="black">online (nonfraud)</font></p>
 <p><span class="fa fa-circle" style="color:green"></span> <font color="lightgrey">online </font>(fraud)</p>
@@ -267,22 +273,22 @@ $lang['faq_menu_link_answer_linkStatusColors']    = '<span class="fa fa-circle" 
 $lang['faq_menu_link_question_linkOffline']       = 'A link is offline';
 $lang['faq_menu_link_answer_linkOffline']         = 'If there is a link which seems to be offline, you have the ability to report this site.</p>
 <p>We will review your reported link and mark the site as offline';
-$lang['faq_menu_link_question_addedLink']         = 'I submitted a link, but it is still not visible';
+$lang['faq_menu_link_question_addedLink']         = 'Я отправил ссылку, но она все еще не видна';
 $lang['faq_menu_link_answer_addedLink']           = 'We verify every submitted link within one week.</p>
 <p>If its still not visible, send us a DM via Twitter or contact us via jabber/icq.';
-$lang['faq_menu_link_question_socialData']       = 'How to get social data?';
+$lang['faq_menu_link_question_socialData']       = 'Как получить социальные данные?';
 $lang['faq_menu_link_answer_socialData']         = 'If you open a forum link, you may get additional information in the headers bar.</p>
 <p>Complete informations you can get on the <a href="search.php">search</a> site.';
 // Privacy
-$lang['faq_menu_privacy']                            = 'Privacy';
-$lang['faq_menu_privacy_question_terms']             = 'Terms';
+$lang['faq_menu_privacy']                            = 'уединение';
+$lang['faq_menu_privacy_question_terms']             = 'сроки';
 $lang['faq_menu_privacy_answer_terms']               = 'By accessing the website at http://link-base.org,</p>
 <p>you are agreeing to be bound by these terms of service,</p>
 <p>all applicable laws and regulations,</p>
 <p>and agree that you are responsible for compliance with any applicable local laws.</p>
 <p>If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
 <p>The materials contained in this website are protected by applicable copyright and trademark law.';
-$lang['faq_menu_privacy_question_useLicense']        = 'Use License';
+$lang['faq_menu_privacy_question_useLicense']        = 'Использовать лицензию';
 $lang['faq_menu_privacy_answer_useLicense']          = 'a) Permission is granted to temporarily download one copy of the materials
 (information or software) on LinkBaseORG\'s website for personal, non-commercial transitory viewing only.
 This is the grant of a license, not a transfer of title, and under this license you may not:</p>
@@ -294,7 +300,7 @@ This is the grant of a license, not a transfer of title, and under this license 
 <p>b) This license shall automatically terminate if you violate any of these restrictions and may be terminated by LinkBaseORG at any time.
 Upon terminating your viewing of these materials or upon the termination of this license,
 you must destroy any downloaded materials in your possession whether in electronic or printed format.';
-$lang['faq_menu_privacy_question_disclaimer']        = 'Disclaimer';
+$lang['faq_menu_privacy_question_disclaimer']        = 'отказ';
 $lang['faq_menu_privacy_answer_disclaimer']          = 'a) The materials on LinkBaseORG\'s website are provided on an \'as is\' basis. LinkBaseORG makes no warranties,
 expressed or implied, and hereby disclaims and negates all other warranties including, without limitation,
 implied warranties or conditions of merchantability, fitness for a particular purpose,
@@ -302,32 +308,32 @@ or non-infringement of intellectual property or other violation of rights.</p>
 <p>b) Further, LinkBaseORG does not warrant or make any representations concerning the accuracy,
 likely results,
 or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.';
-$lang['faq_menu_privacy_question_limitations']       = 'Limitations';
+$lang['faq_menu_privacy_question_limitations']       = 'Ограничения';
 $lang['faq_menu_privacy_answer_limitations']         = 'In no event shall LinkBaseORG or its suppliers be liable for any damages (including, without limitation,
 damages for loss of data or profit,
 or due to business interruption) arising out of the use or inability to use the materials on LinkBaseORG\'s website,
 even if LinkBaseORG or a LinkBaseORG authorized representative has been notified orally or in writing of the possibility of such damage.
 Because some jurisdictions do not allow limitations on implied warranties,
 or limitations of liability for consequential or incidental damages, these limitations may not apply to you.';
-$lang['faq_menu_privacy_question_accuracy']          = 'Accuracy of materials';
+$lang['faq_menu_privacy_question_accuracy']          = 'Точность материалов';
 $lang['faq_menu_privacy_answer_accuracy']            = 'The materials appearing on LinkBaseORG website could include technical, typographical, or photographic errors.
 LinkBaseORG does not warrant that any of the materials on its website are accurate, complete or current.
 LinkBaseORG may make changes to the materials contained on its website at any time without notice.
 However LinkBaseORG does not make any commitment to update the materials.';
-$lang['faq_menu_privacy_question_links']             = 'Links';
+$lang['faq_menu_privacy_question_links']             = 'слева';
 $lang['faq_menu_privacy_answer_links']               = 'LinkBaseORG has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site.
 The inclusion of any link does not imply endorsement by LinkBaseORG of the site.
 Use of any such linked website is at the user\'s own risk.';
-$lang['faq_menu_privacy_question_modifications']     = 'Modifications';
+$lang['faq_menu_privacy_question_modifications']     = 'изменения';
 $lang['faq_menu_privacy_answer_modifications']       = 'LinkBaseORG may revise these terms of service for its website at any time without notice.
 By using this website you are agreeing to be bound by the then current version of these terms of service.';
-$lang['faq_menu_privacy_question_governingLaw']      = 'Governing Law';
+$lang['faq_menu_privacy_question_governingLaw']      = 'Применимое право';
 $lang['faq_menu_privacy_answer_governingLaw']        = 'These terms and conditions are governed by and construed in accordance with the laws of Malaysia
 and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.';
 $lang['faq_menu_privacy_question_piwik']             = 'Matomo (previously Piwik)';
-$lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking via Piwik';
+$lang['faq_menu_privacy_answer_piwik']               = 'Отключить отслеживание пользователей через Matomo (раньше Piwik)';
 // Advertisement
-$lang['faq_menu_advertisement']                      = 'Advertisement';
-$lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
+$lang['faq_menu_advertisement']                      = 'Реклама';
+$lang['faq_menu_advertisement_question_banner']      = 'Реклама';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
 ?>
