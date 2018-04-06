@@ -14,8 +14,8 @@ $lang['navigation_languages_turkish']       = 'Türk';
 $lang['navigation_toggle']          = 'Gezinmeyi değiştir';
 $lang['navigation_home']            = 'Ev';
 // NavigationSub
-$lang['navigation_boards']          = 'Kurulları';
-$lang['navigation_boards_all']      = 'Tüm Kurulları';
+$lang['navigation_boards']          = 'Forumlar';
+$lang['navigation_boards_all']      = 'Tüm forumlar';
 $lang['navigation_boards_noFraud']  = 'Dolandırıcılık yok';
 $lang['navigation_boards_tor']      = 'Tor bir tek';
 $lang['navigation_boards_i2p']      = 'I2p bir tek';
@@ -43,9 +43,9 @@ $lang['navigation_information_misc_rssUpdated']       = 'RSS [güncellenmiş]';
 $lang['navigation_information_misc_siteUptime']       = 'Site çalışma zamanı';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Ev';
-$lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud board';
-$lang['navigation_breadcrumb_tor']        = 'Show only tor boards';
-$lang['navigation_breadcrumb_i2p']        = 'Show only I2P boards';
+$lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud forumlar';
+$lang['navigation_breadcrumb_tor']        = 'Show only tor forumlar';
+$lang['navigation_breadcrumb_i2p']        = 'Show only I2P forumlar';
 $lang['navigation_breadcrumb_search']     = 'Search results';
 $lang['navigation_breadcrumb_blogs']      = 'Security & hacking blogs';
 $lang['navigation_breadcrumb_shops']      = 'Shops';
@@ -98,7 +98,16 @@ $lang['pricing_perMonth']       = 'her ay';
 $lang['pricing_contactUs']      = 'Bizimle iletişime geçin';
 // Search Site
 $lang['search_nameText']                = 'Isim';
-$lang['search_languageText']            = 'Dil';
+$lang['search_typeHead']                = 'Tip';
+$lang['search_resetText']               = 'Aramayı sıfırla';
+$lang['search_category']                = 'Kategori';
+$lang['search_typeBoard']               = 'Forumlar';
+$lang['search_typeBlog']                = 'Blog';
+$lang['search_typeWarez']               = 'Warez';
+$lang['search_typeVPN']                 = 'VPN';
+$lang['search_typeUseful']              = 'İşe yarar';
+$lang['search_typeShop']                = 'Dükkan';
+$lang['search_typeHosting']             = 'Barındırma';
 // Contact us Site
 $lang['contact_donateText']             = 'Bu hizmeti canlı tutmak için bağış yapın :';
 $lang['contact_contactInformationText'] = 'İletişim bilgileri:';
