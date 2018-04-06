@@ -1,6 +1,6 @@
 #Linkbase multiple language version update :: Version 4.1
 
-If you like to help us translating our website, you may fork the english translated file
+If you like to help us translating our website, you may fork the english "translated" (100& translated) file
 
 and perform a pull request with the translated file in your native language
 
