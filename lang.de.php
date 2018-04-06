@@ -9,6 +9,7 @@ $lang['navigation_languages']               = 'Sprache';
 $lang['navigation_languages_english']       = 'Englisch';
 $lang['navigation_languages_german']        = 'Deutsch';
 $lang['navigation_languages_russian']       = 'Russisch';
+$lang['navigation_languages_turkish']       = 'Türkisch';
 // Navigation
 $lang['navigation_toggle']          = 'Navigation umschalten';
 $lang['navigation_home']            = 'Startseite';
@@ -33,7 +34,7 @@ $lang['navigation_information_contact']               = 'Kontakt';
 $lang['navigation_information_donate']                = 'Spenden';
 $lang['navigation_information_pricing']               = 'Preise';
 $lang['navigation_information_linkUs']                = 'Verlinke uns';
-$lang['navigation_information_misc']                  = 'Misc';
+$lang['navigation_information_misc']                  = 'Sonstiges';
 $lang['navigation_information_misc_changelog']        = 'Changelog';
 $lang['navigation_information_misc_api']              = 'API';
 $lang['navigation_information_misc_faq']              = 'FAQ';
@@ -97,7 +98,16 @@ $lang['pricing_perMonth']       = 'pro Monat';
 $lang['pricing_contactUs']      = 'Kontaktiere uns';
 // Search Site
 $lang['search_nameText']                = 'Name';
-$lang['search_languageText']            = 'Sprache';
+$lang['search_typeHead']                = 'Typ';
+$lang['search_resetText']               = 'Suche zurücksetzen';
+$lang['search_category']                = 'Kategorie';
+$lang['search_typeBoard']               = 'Forum';
+$lang['search_typeBlog']                = 'Blog';
+$lang['search_typeWarez']               = 'Warez';
+$lang['search_typeVPN']                 = 'VPN';
+$lang['search_typeUseful']              = 'Nützlich';
+$lang['search_typeShop']                = 'Shop';
+$lang['search_typeHosting']             = 'Hosting';
 // Contact us Site
 $lang['contact_donateText']             = 'Spende, um diese Seite am Leben zu erhalten:';
 $lang['contact_contactInformationText'] = 'Kontakt Informationen:';
@@ -132,14 +142,10 @@ $lang['hosting_head']         = '';
 $lang['hosting_service']      = 'Anbieter';
 $lang['hosting_creditcard']   = 'Kreditkarte';
 $lang['hosting_locations']    = 'Standorte';
-$lang['hosting_yes']          = 'Ja';
-$lang['hosting_no']           = 'Nein';
-
 $lang['hosting_infoTextHead']     = 'Information!';
-$lang['hosting_infoText']         = 'Norton explores the secret world of bulletproof hosting that’s hidden deep in underground bunkers,
-isolated at sea, and spread across the Web. Uncover the threats that lie within these services, such as botnets,
-malware, ransomware, and the black market, and learn how to protect yourself in <i class="fa fa-youtube-play" aria-hidden="true"></i>
-“<a target="_blank" href="https://www.youtube.com/watch?v=CashAq5RToM"><b>The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide</b></a>”';
+$lang['hosting_infoText']         = 'Norton erkundet die geheime Welt des "Bulletproof" Hosting\'s, die tief in unterirdischen Bunkern verborgen,
+auf See isoliert und über das Web verbreitet sind. Entdecken Sie die Bedrohungen, die in diesen Diensten liegen, wie zum Beispiel Bot-Netzwerke, Malware, Ransomware und dem Schwarzmarkt
+und lernen Sie, wie Sie sich selbst schützen können in "The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide"';
 $lang['hosting_infoStartVideo']     = 'Starte Video';
 // Footer
 $lang['footer_generatedInStart'] = 'Seite wurde in ';
@@ -223,7 +229,7 @@ $lang['vpn_webproxy']           = 'Webproxy';
 $lang['vpn_checker']            = 'Checker';
 // Warez Category
 $lang['warez_boards']           = 'Foren';
-$lang['warez_anime']            = 'Anime / Hentai / Manga ';
+$lang['warez_anime']            = 'Anime / Hentai / Manga';
 $lang['warez_tvstream']         = 'TV Stream';
 $lang['warez_ftp']              = 'FTP / FXP';
 $lang['warez_documentation']    = 'Dokumentation';
