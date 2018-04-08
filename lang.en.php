@@ -1,9 +1,9 @@
 <?php
 // Global
-$lang['site_error_backText']        = 'Back';
-$lang['site_403_errorText']         = 'Sorry, you dont have permission to access this site.';
-$lang['site_404_errorText']         = 'Oops! Sorry, that page could not be found.';
-$lang['site_500_errorText']         = 'Sorry, there was an internal error.';
+$lang['site_error_backText']                = 'Back';
+$lang['site_403_errorText']                 = 'Sorry, you dont have permission to access this site.';
+$lang['site_404_errorText']                 = 'Oops! Sorry, that page could not be found.';
+$lang['site_500_errorText']                 = 'Sorry, there was an internal error.';
 // Nav Language Chooser
 $lang['navigation_languages']               = 'Language';
 $lang['navigation_languages_english']       = 'English';
@@ -11,23 +11,23 @@ $lang['navigation_languages_german']        = 'German';
 $lang['navigation_languages_russian']       = 'Russian';
 $lang['navigation_languages_turkish']       = 'Turkish';
 // Navigation
-$lang['navigation_toggle']          = 'Toggle navigation';
-$lang['navigation_home']            = 'Home';
+$lang['navigation_toggle']                  = 'Toggle navigation';
+$lang['navigation_home']                    = 'Home';
 // NavigationSub
-$lang['navigation_boards']          = 'Boards';
-$lang['navigation_boards_all']      = 'All boards';
-$lang['navigation_boards_noFraud']  = 'No Fraud';
-$lang['navigation_boards_tor']      = 'Tor only';
-$lang['navigation_boards_i2p']      = 'I2p only';
+$lang['navigation_boards']                  = 'Boards';
+$lang['navigation_boards_all']              = 'All boards';
+$lang['navigation_boards_noFraud']          = 'No Fraud';
+$lang['navigation_boards_tor']              = 'Tor only';
+$lang['navigation_boards_i2p']              = 'I2p only';
 // Navigation
-$lang['navigation_blogs']           = 'Blogs';
-$lang['navigation_shops']           = 'Shops';
-$lang['navigation_warez']           = 'Warez';
-$lang['navigation_useful']          = 'Useful';
-$lang['navigation_vpn']             = 'VPN';
-$lang['navigation_hosting']         = 'Hosting';
-$lang['navigation_addLink']         = 'Add link';
-$lang['navigation_last5Added']      = 'Show recently 15 updated links (RSS)';
+$lang['navigation_blogs']                   = 'Blogs';
+$lang['navigation_shops']                   = 'Shops';
+$lang['navigation_warez']                   = 'Warez';
+$lang['navigation_useful']                  = 'Useful';
+$lang['navigation_vpn']                     = 'VPN';
+$lang['navigation_hosting']                 = 'Hosting';
+$lang['navigation_addLink']                 = 'Add link';
+$lang['navigation_last5Added']              = 'Show recently 15 updated links (RSS)';
 // NavigationSub
 $lang['navigation_information']                       = 'Information';
 $lang['navigation_information_contact']               = 'Contact';
@@ -64,125 +64,125 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 // Subnavigation
 $lang['subnavigation_lastDbUpdate']       = 'Last db update';
 // Sidebar
-$lang['sidebar_searchPlaceholder']    = 'Search';
-$lang['sidebar_quicklinks']           = 'Quicklinks';
-$lang['sidebar_boardDetailView']      = 'Forum detail view';
-$lang['sidebar_linkQueue']            = 'Link queue';
-$lang['sidebar_linkQueue_added']      = 'added';
-$lang['sidebar_linkQueue_reported']   = 'reported';
-$lang['sidebar_statistics']           = 'Statistics';
-$lang['sidebar_statistics_online']    = 'online';
-$lang['sidebar_statistics_offline']   = 'offline';
-$lang['sidebar_statistics_languages'] = 'languages';
-$lang['sidebar_statistics_total']     = 'total';
-$lang['sidebar_advertisement']        = 'Advertisement';
-$lang['sidebar_version']              = 'Version 4.1';
-$lang['sidebar_version_changelog']    = 'Changelog';
+$lang['sidebar_searchPlaceholder']        = 'Search';
+$lang['sidebar_quicklinks']               = 'Quicklinks';
+$lang['sidebar_boardDetailView']          = 'Forum detail view';
+$lang['sidebar_linkQueue']                = 'Link queue';
+$lang['sidebar_linkQueue_added']          = 'added';
+$lang['sidebar_linkQueue_reported']       = 'reported';
+$lang['sidebar_statistics']               = 'Statistics';
+$lang['sidebar_statistics_online']        = 'online';
+$lang['sidebar_statistics_offline']       = 'offline';
+$lang['sidebar_statistics_languages']     = 'languages';
+$lang['sidebar_statistics_total']         = 'total';
+$lang['sidebar_advertisement']            = 'Advertisement';
+$lang['sidebar_version']                  = 'Version 4.1';
+$lang['sidebar_version_changelog']        = 'Changelog';
 // Link us site
-$lang['linkus_htmlCodeText']      = 'Get the code to insert our banner in your website.';
-$lang['linkus_bbcodeText']        = 'Get the code, to insert our banner in signatures, for example in forums (MyBB, vBulletin, ...)';
+$lang['linkus_htmlCodeText']              = 'Get the code to insert our banner in your website.';
+$lang['linkus_bbcodeText']                = 'Get the code, to insert our banner in signatures, for example in forums (MyBB, vBulletin, ...)';
 // Donate site
-$lang['donate_headText']              = 'Donate, to keep this service alive :';
+$lang['donate_headText']                  = 'Donate, to keep this service alive :';
 // Changelog site
-$lang['changelog_head']         = 'Changelog';
-$lang['changelog_committed']    = 'committed a new version update';
+$lang['changelog_head']                   = 'Changelog';
+$lang['changelog_committed']              = 'published a new version update.';
 // Pricing site
-$lang['pricing_smallHead']      = 'Small';
-$lang['pricing_smallInclude']   = 'get featured "red star"';
-$lang['pricing_mediumHead']     = 'Medium';
-$lang['pricing_highlight']      = 'Most popular plan';
-$lang['pricing_mediumInclude']  = '468px * 60px (+red star)';
-$lang['pricing_largeHead']      = 'Large';
-$lang['pricing_largeInclude']   = '920px * 120px (+red star)';
-$lang['pricing_perMonth']       = 'per month';
-$lang['pricing_contactUs']      = 'Contact us';
+$lang['pricing_smallHead']                = 'Small';
+$lang['pricing_smallInclude']             = 'get featured "red star"';
+$lang['pricing_mediumHead']               = 'Medium';
+$lang['pricing_highlight']                = 'Most popular plan';
+$lang['pricing_mediumInclude']            = '468px * 60px (+red star)';
+$lang['pricing_largeHead']                = 'Large';
+$lang['pricing_largeInclude']             = '920px * 120px (+red star)';
+$lang['pricing_perMonth']                 = 'per month';
+$lang['pricing_contactUs']                = 'Contact us';
 // Search Site
-$lang['search_nameText']                = 'Name';
-$lang['search_typeHead']                = 'Type';
-$lang['search_resetText']               = 'Reset search';
-$lang['search_category']                = 'Category';
-$lang['search_typeBoard']               = 'Board';
-$lang['search_typeBlog']                = 'Blog';
-$lang['search_typeWarez']               = 'Warez';
-$lang['search_typeVPN']                 = 'VPN';
-$lang['search_typeUseful']              = 'Useful';
-$lang['search_typeShop']                = 'Shop';
-$lang['search_typeHosting']             = 'Hosting';
+$lang['search_nameText']                  = 'Name';
+$lang['search_typeHead']                  = 'Type';
+$lang['search_resetText']                 = 'Reset search';
+$lang['search_category']                  = 'Category';
+$lang['search_typeBoard']                 = 'Board';
+$lang['search_typeBlog']                  = 'Blog';
+$lang['search_typeWarez']                 = 'Warez';
+$lang['search_typeVPN']                   = 'VPN';
+$lang['search_typeUseful']                = 'Useful';
+$lang['search_typeShop']                  = 'Shop';
+$lang['search_typeHosting']               = 'Hosting';
 // Contact us Site
-$lang['contact_donateText']             = 'Donate, to keep this service alive :';
-$lang['contact_contactInformationText'] = 'Contact information:';
-$lang['contact_twitterFollow']          = 'Follow';
-$lang['contact_warningHeader']          = 'Warning!';
-$lang['contact_warningText']            = 'If you want to contact us, use <b>only</b> the shown contact informations on <b>this site</b> to avoid beeing scammed !';
+$lang['contact_donateText']               = 'Donate, to keep this service alive :';
+$lang['contact_contactInformationText']   = 'Contact information:';
+$lang['contact_twitterFollow']            = 'Follow';
+$lang['contact_warningHeader']            = 'Warning!';
+$lang['contact_warningText']              = 'If you want to contact us, use <b>only</b> the shown contact informations on <b>this site</b> to avoid beeing scammed !';
 // Report Link Site
-$lang['report_headText']              = 'Report';
-$lang['report_sitename']              = 'Name';
-$lang['report_url']                   = 'URL';
-$lang['report_reason']                = 'Reason';
-$lang['report_reportBtn']             = 'Report link';
+$lang['report_headText']                  = 'Report';
+$lang['report_sitename']                  = 'Name';
+$lang['report_url']                       = 'URL';
+$lang['report_reason']                    = 'Reason';
+$lang['report_reportBtn']                 = 'Report link';
 
 // Add Link Site
-$lang['add_url']                      = 'URL';
-$lang['add_tor']                      = 'TOR URL';
-$lang['add_i2p']                      = 'I2P URL';
-$lang['add_facebook']                 = 'Facebook';
-$lang['add_twitter']                  = 'Twitter';
-$lang['add_category']                 = 'Category';
-$lang['add_languages']                = 'Language';
-$lang['add_pleaseSelect']             = 'Please select';
-$lang['add_information']              = 'Information';
-$lang['add_information_placeholder']  = 'Backup domains, contact informations, ... (max 200 chars)';
-$lang['add_addLink']                  = 'Add link';
-$lang['add_success_title']            = 'Success!';
-$lang['add_success_text']             = 'The link was added. Thanks for your help.';
-$lang['add_fail_title']               = 'Warning!';
-$lang['add_fail_text']                = 'There was an error. Please try again.';
+$lang['add_url']                          = 'URL';
+$lang['add_tor']                          = 'TOR URL';
+$lang['add_i2p']                          = 'I2P URL';
+$lang['add_facebook']                     = 'Facebook';
+$lang['add_twitter']                      = 'Twitter';
+$lang['add_category']                     = 'Category';
+$lang['add_languages']                    = 'Language';
+$lang['add_pleaseSelect']                 = 'Please select';
+$lang['add_information']                  = 'Information';
+$lang['add_information_placeholder']      = 'Backup domains, contact informations, ... (max 200 chars)';
+$lang['add_addLink']                      = 'Add link';
+$lang['add_success_title']                = 'Success!';
+$lang['add_success_text']                 = 'The link was added. Thanks for your help.';
+$lang['add_fail_title']                   = 'Warning!';
+$lang['add_fail_text']                    = 'There was an error. Please try again.';
 // Hosting Site
-$lang['hosting_head']         = '';
-$lang['hosting_service']      = 'Service';
-$lang['hosting_creditcard']   = 'Creditcard';
-$lang['hosting_locations']    = 'Locations';
-$lang['hosting_infoTextHead']     = 'Information!';
-$lang['hosting_infoText']         = 'Norton explores the secret world of bulletproof hosting that’s hidden deep in underground bunkers,
+$lang['hosting_head']                     = '';
+$lang['hosting_service']                  = 'Service';
+$lang['hosting_creditcard']               = 'Creditcard';
+$lang['hosting_locations']                = 'Locations';
+$lang['hosting_infoTextHead']             = 'Information!';
+$lang['hosting_infoText']                 = 'Norton explores the secret world of bulletproof hosting that’s hidden deep in underground bunkers,
 isolated at sea, and spread across the Web. Uncover the threats that lie within these services, such as botnets,
 malware, ransomware, and the black market, and learn how to protect yourself in "The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide"';
-$lang['hosting_infoStartVideo']     = 'Start Video';
+$lang['hosting_infoStartVideo']           = 'Start Video';
 // Footer
-$lang['footer_generatedInStart'] = 'Page generated in ';
-$lang['footer_generatedInEnd']   = ' seconds.';
+$lang['footer_generatedInStart']          = 'Page generated in ';
+$lang['footer_generatedInEnd']            = ' seconds.';
 // Language Category
-$lang['promoted']        = '&#10035;Promoted';
-$lang['partner']         = 'Partner';
-$lang['al']              = 'Albanian';
-$lang['ar']              = 'Arabic';
-$lang['az']              = 'Azerbaijan';
-$lang['bs']              = 'Bosnian';
-$lang['zh']              = 'Chinese';
-$lang['hr']              = 'Croatia';
-$lang['cz']              = 'Czech';
-$lang['da']              = 'Danish';
-$lang['nl']              = 'Dutch';
-$lang['en']              = 'English';
-$lang['fr']              = 'French';
-$lang['ge']              = 'Georgian';
-$lang['de']              = 'German';
-$lang['gr']              = 'Greek';
-$lang['id']              = 'Indonesian';
-$lang['it']              = 'Italian';
-$lang['jp']              = 'Japanese';
-$lang['my']              = 'Malaysian';
-$lang['fas']             = 'Persian';
-$lang['pl']              = 'Polish';
-$lang['pt']              = 'Portuguese';
-$lang['ro']              = 'Romanian';
-$lang['ru']              = 'Russian';
-$lang['sr']              = 'Serbian';
-$lang['es']              = 'Spanish';
-$lang['th']              = 'Thai';
-$lang['tr']              = 'Turkish';
-$lang['ua']              = 'Ukrainian';
-$lang['uz']              = 'Uzbek';
-$lang['vn']              = 'Vietnamese';
+$lang['promoted']               = '&#10035;Promoted';
+$lang['partner']                = 'Partner';
+$lang['al']                     = 'Albanian';
+$lang['ar']                     = 'Arabic';
+$lang['az']                     = 'Azerbaijan';
+$lang['bs']                     = 'Bosnian';
+$lang['zh']                     = 'Chinese';
+$lang['hr']                     = 'Croatia';
+$lang['cz']                     = 'Czech';
+$lang['da']                     = 'Danish';
+$lang['nl']                     = 'Dutch';
+$lang['en']                     = 'English';
+$lang['fr']                     = 'French';
+$lang['ge']                     = 'Georgian';
+$lang['de']                     = 'German';
+$lang['gr']                     = 'Greek';
+$lang['id']                     = 'Indonesian';
+$lang['it']                     = 'Italian';
+$lang['jp']                     = 'Japanese';
+$lang['my']                     = 'Malaysian';
+$lang['fas']                    = 'Persian';
+$lang['pl']                     = 'Polish';
+$lang['pt']                     = 'Portuguese';
+$lang['ro']                     = 'Romanian';
+$lang['ru']                     = 'Russian';
+$lang['sr']                     = 'Serbian';
+$lang['es']                     = 'Spanish';
+$lang['th']                     = 'Thai';
+$lang['tr']                     = 'Turkish';
+$lang['ua']                     = 'Ukrainian';
+$lang['uz']                     = 'Uzbek';
+$lang['vn']                     = 'Vietnamese';
 // Shop Category
 $lang['shops_ccv']              = 'Ccv / Dumps';
 $lang['shops_accounts']         = 'Accounts';
@@ -258,7 +258,7 @@ $lang['out_redirectingIn']      = ' in 20 seconds.';
 $lang['out_iframeText1']        = 'Your browser cannot show iframes:';
 $lang['out_iframeText2']        = 'Click here to open requested site:';
 // FAQ site
-$lang['faq_head']                 = 'Frequently Asked Questions';
+$lang['faq_head']               = 'Frequently Asked Questions';
 // Link
 $lang['faq_menu_link']                            = 'Link';
 $lang['faq_menu_link_question_linkStatusColors']  = 'What are the meanings of the different link status colors?';
@@ -336,4 +336,7 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking vi
 $lang['faq_menu_advertisement']                      = 'Advertisement';
 $lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
+
+// New Strings
+$lang['useful_serials']         = 'Serials';
 ?>
