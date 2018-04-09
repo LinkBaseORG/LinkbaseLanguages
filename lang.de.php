@@ -4,12 +4,6 @@ $lang['site_error_backText']        = 'Zurück';
 $lang['site_403_errorText']         = 'Entschuldigung, Sie haben keine Erlaubnis, auf diese Seite zuzugreifen.';
 $lang['site_404_errorText']         = 'Hoppla! Entschuldigung, diese Seite konnte nicht gefunden werden.';
 $lang['site_500_errorText']         = 'Entschuldigung, es gab einen internen Fehler.';
-// Nav Language Chooser
-$lang['navigation_languages']               = 'Sprache';
-$lang['navigation_languages_english']       = 'Englisch';
-$lang['navigation_languages_german']        = 'Deutsch';
-$lang['navigation_languages_russian']       = 'Russisch';
-$lang['navigation_languages_turkish']       = 'Türkisch';
 // Navigation
 $lang['navigation_toggle']          = 'Navigation umschalten';
 $lang['navigation_home']            = 'Startseite';
@@ -65,8 +59,6 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 $lang['subnavigation_lastDbUpdate']       = 'Letztes Db Update';
 // Sidebar
 $lang['sidebar_searchPlaceholder']    = 'Suche';
-$lang['sidebar_quicklinks']           = 'Quick Links';
-$lang['sidebar_boardDetailView']      = 'Foren Detail Ansicht';
 $lang['sidebar_linkQueue']            = 'Link queue';
 $lang['sidebar_linkQueue_added']      = 'hinzugefügt';
 $lang['sidebar_linkQueue_reported']   = 'gemeldet';
@@ -120,6 +112,11 @@ $lang['report_sitename']              = 'Name';
 $lang['report_url']                   = 'URL';
 $lang['report_reason']                = 'Grund';
 $lang['report_reportBtn']             = 'Link melden';
+$lang['report_success_title']         = 'Erfolg!';
+$lang['report_success_text']          = 'Der Link wurde gemeldet. Vielen Dank für deine Hilfe.';
+$lang['report_fail_title']            = 'Warnung!';
+$lang['report_fail_text']             = 'Es gab einen Fehler. Bitte versuche es erneut.';
+$lang['report_fail_DoubleEntry_text'] = 'Dieser Link wurde schon gemeldet.';
 
 // Add Link Site
 $lang['add_url']                      = 'URL';
@@ -137,19 +134,20 @@ $lang['add_success_title']            = 'Erfolg!';
 $lang['add_success_text']             = 'Der Link wurde hinzugefügt. Vielen dank für deine Hilfe.';
 $lang['add_fail_title']               = 'Fehler!';
 $lang['add_fail_text']                = 'Es ist ein Fehler aufgetreten, bitte versuche es erneut.';
+$lang['add_facebook_placeholder']     = 'Gruppenname';
 // Hosting Site
-$lang['hosting_head']         = '';
-$lang['hosting_service']      = 'Anbieter';
-$lang['hosting_creditcard']   = 'Kreditkarte';
-$lang['hosting_locations']    = 'Standorte';
-$lang['hosting_infoTextHead']     = 'Information!';
-$lang['hosting_infoText']         = 'Norton erkundet die geheime Welt des "Bulletproof" Hosting\'s, die tief in unterirdischen Bunkern verborgen,
+$lang['hosting_head']                 = '';
+$lang['hosting_service']              = 'Anbieter';
+$lang['hosting_creditcard']           = 'Kreditkarte';
+$lang['hosting_locations']            = 'Standorte';
+$lang['hosting_infoTextHead']         = 'Information!';
+$lang['hosting_infoText']             = 'Norton erkundet die geheime Welt des "Bulletproof" Hosting\'s, die tief in unterirdischen Bunkern verborgen,
 auf See isoliert und über das Web verbreitet sind. Entdecken Sie die Bedrohungen, die in diesen Diensten liegen, wie zum Beispiel Bot-Netzwerke, Malware, Ransomware und dem Schwarzmarkt
 und lernen Sie, wie Sie sich selbst schützen können in "The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide"';
-$lang['hosting_infoStartVideo']     = 'Starte Video';
+$lang['hosting_infoStartVideo']       = 'Starte Video';
 // Footer
-$lang['footer_generatedInStart'] = 'Seite wurde in ';
-$lang['footer_generatedInEnd']   = ' Sekunden generiert.';
+$lang['footer_generatedInStart']      = 'Seite wurde in ';
+$lang['footer_generatedInEnd']        = ' Sekunden generiert.';
 // Language Category
 $lang['promoted']        = '&#10035;Werbung';
 $lang['partner']         = 'Partner';
@@ -173,7 +171,7 @@ $lang['jp']              = 'Japanisch';
 $lang['my']              = 'Malaysisch';
 $lang['fas']             = 'Persisch';
 $lang['pl']              = 'Polnisch';
-$lang['pt']              = 'Portugisisch';
+$lang['pt']              = 'Portugiesisch';
 $lang['ro']              = 'Rumänisch';
 $lang['ru']              = 'Russisch';
 $lang['sr']              = 'Serbisch';
@@ -220,6 +218,7 @@ $lang['useful_uptimechecker']   = 'Uptime Checker';
 $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Sicherheit';
 $lang['useful_hackgame']        = 'Hack-Spiele';
+$lang['useful_serials']         = 'Seriennummern';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
@@ -326,4 +325,5 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Benutzerverfolgung von M
 $lang['faq_menu_advertisement']                      = 'Werbung';
 $lang['faq_menu_advertisement_question_banner']      = 'Werbung';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
+// New Strings
 ?>
