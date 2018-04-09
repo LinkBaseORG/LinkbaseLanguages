@@ -1,15 +1,9 @@
 <?php
 // Global
 $lang['site_error_backText']                = 'Back';
-$lang['site_403_errorText']                 = 'Sorry, you dont have permission to access this site.';
+$lang['site_403_errorText']                 = 'Sorry, you don\'t have permission to access this site.';
 $lang['site_404_errorText']                 = 'Oops! Sorry, that page could not be found.';
 $lang['site_500_errorText']                 = 'Sorry, there was an internal error.';
-// Nav Language Chooser
-$lang['navigation_languages']               = 'Language';
-$lang['navigation_languages_english']       = 'English';
-$lang['navigation_languages_german']        = 'German';
-$lang['navigation_languages_russian']       = 'Russian';
-$lang['navigation_languages_turkish']       = 'Turkish';
 // Navigation
 $lang['navigation_toggle']                  = 'Toggle navigation';
 $lang['navigation_home']                    = 'Home';
@@ -43,7 +37,7 @@ $lang['navigation_information_misc_rssUpdated']       = 'RSS [updated]';
 $lang['navigation_information_misc_siteUptime']       = 'Site uptime';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Home';
-$lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud board';
+$lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud boards';
 $lang['navigation_breadcrumb_tor']        = 'Show only tor boards';
 $lang['navigation_breadcrumb_i2p']        = 'Show only I2P boards';
 $lang['navigation_breadcrumb_search']     = 'Search results';
@@ -65,8 +59,6 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 $lang['subnavigation_lastDbUpdate']       = 'Last db update';
 // Sidebar
 $lang['sidebar_searchPlaceholder']        = 'Search';
-$lang['sidebar_quicklinks']               = 'Quicklinks';
-$lang['sidebar_boardDetailView']          = 'Forum detail view';
 $lang['sidebar_linkQueue']                = 'Link queue';
 $lang['sidebar_linkQueue_added']          = 'added';
 $lang['sidebar_linkQueue_reported']       = 'reported';
@@ -120,7 +112,11 @@ $lang['report_sitename']                  = 'Name';
 $lang['report_url']                       = 'URL';
 $lang['report_reason']                    = 'Reason';
 $lang['report_reportBtn']                 = 'Report link';
-
+$lang['report_success_title']             = 'Success!';
+$lang['report_success_text']              = 'The link was reported. Thanks for your help.';
+$lang['report_fail_title']                = 'Warning!';
+$lang['report_fail_text']                 = 'There was an error. Please try again.';
+$lang['report_fail_DoubleEntry_text']     = 'This site is already marked as reported';
 // Add Link Site
 $lang['add_url']                          = 'URL';
 $lang['add_tor']                          = 'TOR URL';
@@ -137,6 +133,7 @@ $lang['add_success_title']                = 'Success!';
 $lang['add_success_text']                 = 'The link was added. Thanks for your help.';
 $lang['add_fail_title']                   = 'Warning!';
 $lang['add_fail_text']                    = 'There was an error. Please try again.';
+$lang['add_facebook_placeholder']         = 'Group name';
 // Hosting Site
 $lang['hosting_head']                     = '';
 $lang['hosting_service']                  = 'Service';
@@ -220,6 +217,7 @@ $lang['useful_uptimechecker']   = 'Uptime Checker';
 $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Security';
 $lang['useful_hackgame']        = 'Hack Game';
+$lang['useful_serials']         = 'Serials';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
@@ -257,6 +255,8 @@ $lang['out_redirectingTo']      = 'Redirecting to ';
 $lang['out_redirectingIn']      = ' in 20 seconds.';
 $lang['out_iframeText1']        = 'Your browser cannot show iframes:';
 $lang['out_iframeText2']        = 'Click here to open requested site:';
+$lang['out_api']                = 'API Access';
+$lang['out_noSocialAccounts']   = 'No social accounts available';
 // FAQ site
 $lang['faq_head']               = 'Frequently Asked Questions';
 // Link
@@ -336,7 +336,4 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking vi
 $lang['faq_menu_advertisement']                      = 'Advertisement';
 $lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
-
-// New Strings
-$lang['useful_serials']         = 'Serials';
 ?>
