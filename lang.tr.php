@@ -4,12 +4,6 @@ $lang['site_error_backText']        = 'Geri';
 $lang['site_403_errorText']         = 'Üzgünüz, bu siteye erişim izniniz yok.';
 $lang['site_404_errorText']         = 'Hata! Üzgünüz, bu sayfa bulunamadı.';
 $lang['site_500_errorText']         = 'Üzgünüz, dahili bir hata oluştu.';
-// Nav Language Chooser
-$lang['navigation_languages']               = 'Dil';
-$lang['navigation_languages_english']       = 'Ingilizce';
-$lang['navigation_languages_german']        = 'Almanca';
-$lang['navigation_languages_russian']       = 'Rusça';
-$lang['navigation_languages_turkish']       = 'Türk';
 // Navigation
 $lang['navigation_toggle']          = 'Gezinmeyi değiştir';
 $lang['navigation_home']            = 'Ev';
@@ -65,8 +59,6 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 $lang['subnavigation_lastDbUpdate']       = 'Son db güncellemesi';
 // Sidebar
 $lang['sidebar_searchPlaceholder']    = 'Arama';
-$lang['sidebar_quicklinks']           = 'Quicklinks';
-$lang['sidebar_boardDetailView']      = 'Forum detail view';
 $lang['sidebar_linkQueue']            = 'Bağlantı sırası';
 $lang['sidebar_linkQueue_added']      = 'katma';
 $lang['sidebar_linkQueue_reported']   = 'rapor';
@@ -120,6 +112,11 @@ $lang['report_sitename']              = 'Isim';
 $lang['report_url']                   = 'URL';
 $lang['report_reason']                = 'Neden';
 $lang['report_reportBtn']             = 'Bağlantıyı bildir';
+$lang['report_success_title']         = 'başarılı!';
+$lang['report_success_text']          = 'Web sitesi rapor edildi. Yardım ettiğin için teşekkür ederim.';
+$lang['report_fail_title']            = 'Uyarı!';
+$lang['report_fail_text']             = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+$lang['report_fail_DoubleEntry_text'] = 'Bu site zaten bildirildiği gibi işaretlendi.';
 
 // Add Link Site
 $lang['add_url']                      = 'URL';
@@ -137,6 +134,7 @@ $lang['add_success_title']            = 'Başarı!';
 $lang['add_success_text']             = 'Bağlantı eklendi. Yardım ettiğin için teşekkür ederim.';
 $lang['add_fail_title']               = 'Uyarı!';
 $lang['add_fail_text']                = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+$lang['add_facebook_placeholder']     = 'Grup ismi';
 // Hosting Site
 $lang['hosting_head']         = '';
 $lang['hosting_service']      = 'Hizmet';
@@ -220,6 +218,7 @@ $lang['useful_uptimechecker']   = 'Uptime Checker';
 $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Security';
 $lang['useful_hackgame']        = 'Hack Game';
+$lang['useful_serials']         = 'seri numarası';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
@@ -336,4 +335,5 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking vi
 $lang['faq_menu_advertisement']                      = 'Advertisement';
 $lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
+// New Strings
 ?>
