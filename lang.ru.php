@@ -4,12 +4,6 @@ $lang['site_error_backText']        = 'назад';
 $lang['site_403_errorText']         = 'К сожалению, у вас нет разрешения на доступ к этому сайту.';
 $lang['site_404_errorText']         = 'К сожалению! К сожалению, эта страница не найдена.';
 $lang['site_500_errorText']         = 'Извините, произошла внутренняя ошибка.';
-// Nav Language Chooser
-$lang['navigation_languages']               = 'язык';
-$lang['navigation_languages_english']       = 'английский';
-$lang['navigation_languages_german']        = 'Немецкий';
-$lang['navigation_languages_russian']       = 'русский';
-$lang['navigation_languages_turkish']       = 'турецкий';
 // Navigation
 $lang['navigation_toggle']          = 'Переключить навигацию';
 $lang['navigation_home']            = 'дома';
@@ -65,8 +59,6 @@ $lang['navigation_breadcrumb_faq']        = 'Вопросы и ответы';
 $lang['subnavigation_lastDbUpdate']       = 'Последнее обновление';
 // Sidebar
 $lang['sidebar_searchPlaceholder']    = 'Поиск';
-$lang['sidebar_quicklinks']           = 'Быстрые ссылки';
-$lang['sidebar_boardDetailView']      = 'Детальный просмотр';
 $lang['sidebar_linkQueue']            = 'Очередь ссылок';
 $lang['sidebar_linkQueue_added']      = 'добавленной';
 $lang['sidebar_linkQueue_reported']   = 'сообщается';
@@ -120,6 +112,11 @@ $lang['report_sitename']              = 'имя';
 $lang['report_url']                   = 'домен';
 $lang['report_reason']                = 'причина';
 $lang['report_reportBtn']             = 'доклад ссылка ';
+$lang['report_success_title']         = 'успех!';
+$lang['report_success_text']          = 'Сообщается о веб-сайте. Спасибо за вашу помощь.';
+$lang['report_fail_title']            = 'предупреждение!';
+$lang['report_fail_text']             = 'Там была ошибка. Пожалуйста, попробуйте еще раз.';
+$lang['report_fail_DoubleEntry_text'] = 'Этот сайт уже отмечен как сообщенный';
 
 // Add Link Site
 $lang['add_url']                      = 'домен';
@@ -137,6 +134,7 @@ $lang['add_success_title']            = 'успех!';
 $lang['add_success_text']             = 'Ссылка была добавлена. Спасибо за вашу помощь.';
 $lang['add_fail_title']               = 'Предупреждение!';
 $lang['add_fail_text']                = 'Там была ошибка. Пожалуйста, попробуйте еще раз.';
+$lang['add_facebook_placeholder']     = 'Название группы';
 // Hosting Site
 $lang['hosting_head']         = '';
 $lang['hosting_service']      = 'обслуживание';
@@ -220,6 +218,7 @@ $lang['useful_uptimechecker']   = 'Uptime Checker';
 $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Безопасность';
 $lang['useful_hackgame']        = 'Hack Game';
+$lang['useful_serials']         = 'серийный номер';
 // VPN Category
 $lang['vpn_paidvpn']            = 'оплаченный VPN';
 $lang['vpn_vpninfo']            = 'VPN Информация';
@@ -336,4 +335,5 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Отключить от�
 $lang['faq_menu_advertisement']                      = 'Реклама';
 $lang['faq_menu_advertisement_question_banner']      = 'Реклама';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
+// New Strings
 ?>
