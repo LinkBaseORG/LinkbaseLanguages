@@ -116,7 +116,7 @@ $lang['report_success_title']         = 'Erfolg!';
 $lang['report_success_text']          = 'Der Link wurde gemeldet. Vielen Dank für deine Hilfe.';
 $lang['report_fail_title']            = 'Warnung!';
 $lang['report_fail_text']             = 'Es gab einen Fehler. Bitte versuche es erneut.';
-$lang['report_fail_DoubleEntry_text'] = 'Dieser Link wurde schon gemeldet.';
+$lang['report_fail_DoubleEntry_text'] = 'Dieser Link wurde bereits gemeldet.';
 
 // Add Link Site
 $lang['add_url']                      = 'URL';
@@ -325,5 +325,4 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Benutzerverfolgung von M
 $lang['faq_menu_advertisement']                      = 'Werbung';
 $lang['faq_menu_advertisement_question_banner']      = 'Werbung';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
-// New Strings
 ?>
