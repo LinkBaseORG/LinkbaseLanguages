@@ -11,8 +11,7 @@ $lang['navigation_home']            = 'الصفحة الرئيسية';
 $lang['navigation_boards']          = 'المنتديات';
 $lang['navigation_boards_all']      = 'كل المنتديات';
 $lang['navigation_boards_noFraud']  = 'لا الحيل';
-$lang['navigation_boards_tor']      = 'Tor فقط';
-$lang['navigation_boards_i2p']      = 'I2P فقط';
+$lang['navigation_boards_torI2P']   = 'Tor / I2P فقط';
 // Navigation
 $lang['navigation_blogs']           = 'بلوق';
 $lang['navigation_shops']           = 'محلات';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'صفحة الحالة';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'الصفحة الرئيسية';
 $lang['navigation_breadcrumb_noFraud']    = 'فقط NonFraud المنتديات';
-$lang['navigation_breadcrumb_tor']        = 'فقط TOR المنتديات';
-$lang['navigation_breadcrumb_i2p']        = 'فقط I2P المنتديات';
+$lang['navigation_breadcrumb_torI2P']     = 'فقط TOR / I2P المنتديات';
 $lang['navigation_breadcrumb_search']     = 'نتائج البحث';
 $lang['navigation_breadcrumb_blogs']      = 'الأمن والقرصنة المدونات';
 $lang['navigation_breadcrumb_shops']      = 'محلات';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']   = 'حاليا';
 $lang['sidebar_statistics_languages'] = 'اللغات';
 $lang['sidebar_statistics_total']     = 'شامل';
 $lang['sidebar_advertisement']        = 'إعلان';
-$lang['sidebar_version']              = 'الإصدار 4.1';
+$lang['sidebar_version']              = 'نص';
 $lang['sidebar_version_changelog']    = 'التغيير';
 // Link us site
 $lang['linkus_htmlCodeText']          = 'احصل على كود HTML لتضمين شعارنا في موقعك.';
@@ -116,6 +114,7 @@ $lang['report_success_title']         = 'نجاح!';
 $lang['report_success_text']          = 'تم الإبلاغ عن الرابط. شكرا لك على مساعدتك';
 $lang['report_fail_title']            = 'تحذير!';
 $lang['report_fail_text']             = 'كان هناك خطأ. يرجى المحاولة مرة أخرى.';
+//$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['report_fail_DoubleEntry_text'] = 'تم الإعلان عن هذا الرابط بالفعل.';
 
 // Add Link Site
@@ -219,6 +218,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'أمن';
 $lang['useful_hackgame']        = 'العاب هاك';
 $lang['useful_serials']         = 'الأرقام التسلسلية';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'مدفوع VPN';
 $lang['vpn_vpninfo']            = 'معلومات VPN';
