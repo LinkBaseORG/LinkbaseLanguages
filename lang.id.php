@@ -11,8 +11,7 @@ $lang['navigation_home']                    = 'Rumah';
 $lang['navigation_boards']                  = 'Papan';
 $lang['navigation_boards_all']              = 'Semua papan';
 $lang['navigation_boards_noFraud']          = 'Tanpa Penipuan';
-$lang['navigation_boards_tor']              = 'Tor hanya';
-$lang['navigation_boards_i2p']              = 'I2p hanya';
+$lang['navigation_boards_torI2P']       	= 'Tor / I2P hanya';
 // Navigation
 $lang['navigation_blogs']                   = 'Blogs';
 $lang['navigation_shops']                   = 'Shops';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'Waktu operasi situs';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Rumah';
 $lang['navigation_breadcrumb_noFraud']    = 'Hanya tampilkan papan non-penipuan';
-$lang['navigation_breadcrumb_tor']        = 'Hanya tampilkan papan tor';
-$lang['navigation_breadcrumb_i2p']        = 'Hanya tampilkan papan I2P';
+$lang['navigation_breadcrumb_torI2P']     = 'Hanya tampilkan papan TOR / I2P';
 $lang['navigation_breadcrumb_search']     = 'Hasil Pencarian';
 $lang['navigation_breadcrumb_blogs']      = 'Keamanan & peretasan blog';
 $lang['navigation_breadcrumb_shops']      = 'Shops';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']       = 'offline';
 $lang['sidebar_statistics_languages']     = 'bahasa';
 $lang['sidebar_statistics_total']         = 'total';
 $lang['sidebar_advertisement']            = 'Iklan';
-$lang['sidebar_version']                  = 'Versi 4.1';
+$lang['sidebar_version']                  = 'Versi';
 $lang['sidebar_version_changelog']        = 'Changelog';
 // Link us site
 $lang['linkus_htmlCodeText']              = 'Dapatkan kode untuk memasukkan spanduk kami di situs web Anda.';
@@ -133,6 +131,7 @@ $lang['add_success_title']                = 'Keberhasilan!';
 $lang['add_success_text']                 = 'Tautan ditambahkan. Terima kasih atas bantuan Anda.';
 $lang['add_fail_title']                   = 'Sinyal!';
 $lang['add_fail_text']                    = 'Ada kesalahan. Silakan coba lagi.';
+//$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['add_facebook_placeholder']         = 'nama grup';
 // Hosting Site
 $lang['hosting_head']                     = '';
@@ -218,6 +217,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Keamanan';
 $lang['useful_hackgame']        = 'Game Peretasan';
 $lang['useful_serials']         = 'Nomor seri';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Berbayar VPN';
 $lang['vpn_vpninfo']            = 'VPN informasi';
