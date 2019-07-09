@@ -11,8 +11,7 @@ $lang['navigation_home']            = '家';
 $lang['navigation_boards']          = 'フォーラム';
 $lang['navigation_boards_all']      = 'すべてのフォーラム';
 $lang['navigation_boards_noFraud']  = 'Non Fraud';
-$lang['navigation_boards_tor']      = 'のみ Tor';
-$lang['navigation_boards_i2p']      = 'のみ I2p';
+$lang['navigation_boards_torI2P']      = 'のみ Tor / I2P';
 // Navigation
 $lang['navigation_blogs']           = 'ウェブログ';
 $lang['navigation_shops']           = 'ショップ';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'ステータスペー�
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = '家';
 $lang['navigation_breadcrumb_noFraud']    = 'のみ NonFraud フォーラム';
-$lang['navigation_breadcrumb_tor']        = 'TORフォーラムのみ';
-$lang['navigation_breadcrumb_i2p']        = 'I2Pフォーラムのみ';
+$lang['navigation_breadcrumb_torI2P']     = 'TOR / I2P フォーラムのみ';
 $lang['navigation_breadcrumb_search']     = '検索結果';
 $lang['navigation_breadcrumb_blogs']      = 'セキュリティとハッキングのブログ';
 $lang['navigation_breadcrumb_shops']      = 'ショップ';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']   = 'オフライン';
 $lang['sidebar_statistics_languages'] = '言語';
 $lang['sidebar_statistics_total']     = '全体的な';
 $lang['sidebar_advertisement']        = '広告';
-$lang['sidebar_version']              = 'バージョン 4.1';
+$lang['sidebar_version']              = 'バージョン';
 $lang['sidebar_version_changelog']    = '変更履歴';
 // Link us site
 $lang['linkus_htmlCodeText']          = 'あなたのウェブサイトにバナーを埋め込むためのHTMLコードを入手してください';
@@ -134,6 +132,7 @@ $lang['add_success_title']            = '成功!';
 $lang['add_success_text']             = 'リンクが追加されました。 あなたの助けをありがとう.';
 $lang['add_fail_title']               = '警告!';
 $lang['add_fail_text']                = 'エラーが発生しました。もう一度お試しください.';
+//$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['add_facebook_placeholder']     = 'グループ名';
 // Hosting Site
 $lang['hosting_head']                 = '';
@@ -219,6 +218,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'セキュリティ';
 $lang['useful_hackgame']        = 'ハックゲーム';
 $lang['useful_serials']         = 'シリアル番号';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = '有料 VPN';
 $lang['vpn_vpninfo']            = 'VPN インフォ';
