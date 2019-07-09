@@ -11,8 +11,7 @@ $lang['navigation_home']            = 'Startseite';
 $lang['navigation_boards']          = 'Foren';
 $lang['navigation_boards_all']      = 'Alle Foren';
 $lang['navigation_boards_noFraud']  = 'Kein Fraud';
-$lang['navigation_boards_tor']      = 'Nur Tor';
-$lang['navigation_boards_i2p']      = 'Nur I2p';
+$lang['navigation_boards_torI2P']   = 'Nur Tor / I2P';
 // Navigation
 $lang['navigation_blogs']           = 'Blogs';
 $lang['navigation_shops']           = 'Shops';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'Seitenstatus';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Startseite';
 $lang['navigation_breadcrumb_noFraud']    = 'Nur NonFraud Foren';
-$lang['navigation_breadcrumb_tor']        = 'Nur TOR Foren';
-$lang['navigation_breadcrumb_i2p']        = 'Nur I2P Foren';
+$lang['navigation_breadcrumb_torI2P']     = 'Nur TOR / I2P Foren';
 $lang['navigation_breadcrumb_search']     = 'Suchergebnisse';
 $lang['navigation_breadcrumb_blogs']      = 'Sicherheits und Hacking Blogs';
 $lang['navigation_breadcrumb_shops']      = 'Shops';
@@ -59,7 +57,7 @@ $lang['navigation_breadcrumb_faq']        = 'FAQ';
 $lang['subnavigation_lastDbUpdate']       = 'Letztes Db Update';
 // Sidebar
 $lang['sidebar_searchPlaceholder']    = 'Suche';
-$lang['sidebar_linkQueue']            = 'Link queue';
+$lang['sidebar_linkQueue']            = 'Warteschlange';
 $lang['sidebar_linkQueue_added']      = 'hinzugefügt';
 $lang['sidebar_linkQueue_reported']   = 'gemeldet';
 $lang['sidebar_statistics']           = 'Statistiken';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']   = 'offline';
 $lang['sidebar_statistics_languages'] = 'Sprachen';
 $lang['sidebar_statistics_total']     = 'insgesamt';
 $lang['sidebar_advertisement']        = 'Werbung';
-$lang['sidebar_version']              = 'Version 4.1';
+$lang['sidebar_version']              = 'Version';
 $lang['sidebar_version_changelog']    = 'Changelog';
 // Link us site
 $lang['linkus_htmlCodeText']          = 'Erhalte den HTML Code, um unseren Banner in deine Webseite einzubinden.';
@@ -219,6 +217,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Sicherheit';
 $lang['useful_hackgame']        = 'Hack-Spiele';
 $lang['useful_serials']         = 'Seriennummern';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
