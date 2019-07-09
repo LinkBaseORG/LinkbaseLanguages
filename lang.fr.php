@@ -11,8 +11,7 @@ $lang['navigation_home']            = 'Maison';
 $lang['navigation_boards']          = 'Forums';
 $lang['navigation_boards_all']      = 'Tous les forums';
 $lang['navigation_boards_noFraud']  = 'Pas de fraude';
-$lang['navigation_boards_tor']      = 'Seulement Tor';
-$lang['navigation_boards_i2p']      = 'Seulement I2p';
+$lang['navigation_boards_torI2P']   = 'Seulement Tor / I2P';
 // Navigation
 $lang['navigation_blogs']           = 'Blogs';
 $lang['navigation_shops']           = 'Magasins';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'Page d\'état';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Maison';
 $lang['navigation_breadcrumb_noFraud']    = 'Pas de fraude';
-$lang['navigation_breadcrumb_tor']        = 'Seulement TOR forums';
-$lang['navigation_breadcrumb_i2p']        = 'Seulement I2P forums';
+$lang['navigation_breadcrumb_torI2P']     = 'Seulement TOR / I2P forums';
 $lang['navigation_breadcrumb_search']     = 'Résultats de la recherche';
 $lang['navigation_breadcrumb_blogs']      = 'Sécurité et piratage de blogs';
 $lang['navigation_breadcrumb_shops']      = 'Magasins';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']   = 'hors ligne';
 $lang['sidebar_statistics_languages'] = 'Langues';
 $lang['sidebar_statistics_total']     = 'global';
 $lang['sidebar_advertisement']        = 'Publicité';
-$lang['sidebar_version']              = 'Version 4.1';
+$lang['sidebar_version']              = 'Version';
 $lang['sidebar_version_changelog']    = 'Changelog';
 // Link us site
 $lang['linkus_htmlCodeText']          = 'Obtenez le code HTML pour intégrer notre bannière dans votre site Web.';
@@ -134,6 +132,7 @@ $lang['add_success_title']            = 'Succès!';
 $lang['add_success_text']             = 'Le lien a été ajouté. Merci pour votre aide.';
 $lang['add_fail_title']               = 'Erreur!';
 $lang['add_fail_text']                = 'Une erreur est survenue, veuillez réessayer.';
+//$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['add_facebook_placeholder']     = 'Nom du groupe';
 // Hosting Site
 $lang['hosting_head']                 = '';
@@ -219,6 +218,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Sécurité';
 $lang['useful_hackgame']        = 'Jeux Hack';
 $lang['useful_serials']         = 'Numéros de série';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Payé VPN';
 $lang['vpn_vpninfo']            = 'VPN information';
