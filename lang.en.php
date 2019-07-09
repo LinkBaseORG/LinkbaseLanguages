@@ -11,8 +11,7 @@ $lang['navigation_home']                    = 'Home';
 $lang['navigation_boards']                  = 'Boards';
 $lang['navigation_boards_all']              = 'All boards';
 $lang['navigation_boards_noFraud']          = 'No Fraud';
-$lang['navigation_boards_tor']              = 'Tor only';
-$lang['navigation_boards_i2p']              = 'I2p only';
+$lang['navigation_boards_torI2P']       	= 'Tor / I2P only';
 // Navigation
 $lang['navigation_blogs']                   = 'Blogs';
 $lang['navigation_shops']                   = 'Shops';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'Site uptime';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'Home';
 $lang['navigation_breadcrumb_noFraud']    = 'Show only nonfraud boards';
-$lang['navigation_breadcrumb_tor']        = 'Show only tor boards';
-$lang['navigation_breadcrumb_i2p']        = 'Show only I2P boards';
+$lang['navigation_breadcrumb_torI2P']     = 'Show only TOR / I2P boards';
 $lang['navigation_breadcrumb_search']     = 'Search results';
 $lang['navigation_breadcrumb_blogs']      = 'Security & hacking blogs';
 $lang['navigation_breadcrumb_shops']      = 'Shops';
@@ -52,7 +50,7 @@ $lang['navigation_breadcrumb_reportLink'] = 'Report a dead link';
 $lang['navigation_breadcrumb_contact']    = 'Contact us';
 $lang['navigation_breadcrumb_donate']     = 'Donation';
 $lang['navigation_breadcrumb_pricing']    = 'Advertisement pricing plans';
-$lang['navigation_breadcrumb_linkUs']     = 'Link Us';
+$lang['navigation_breadcrumb_linkUs']     = 'Link us';
 $lang['navigation_breadcrumb_changelog']  = 'Version changelog';
 $lang['navigation_breadcrumb_faq']        = 'FAQ';
 // Subnavigation
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']       = 'offline';
 $lang['sidebar_statistics_languages']     = 'languages';
 $lang['sidebar_statistics_total']         = 'total';
 $lang['sidebar_advertisement']            = 'Advertisement';
-$lang['sidebar_version']                  = 'Version 4.1';
+$lang['sidebar_version']                  = 'Version';
 $lang['sidebar_version_changelog']        = 'Changelog';
 // Link us site
 $lang['linkus_htmlCodeText']              = 'Get the code to insert our banner in your website.';
@@ -101,11 +99,11 @@ $lang['search_typeUseful']                = 'Useful';
 $lang['search_typeShop']                  = 'Shop';
 $lang['search_typeHosting']               = 'Hosting';
 // Contact us Site
-$lang['contact_donateText']               = 'Donate, to keep this service alive :';
+$lang['contact_donateText']               = 'Donate, to keep this service alive:';
 $lang['contact_contactInformationText']   = 'Contact information:';
 $lang['contact_twitterFollow']            = 'Follow';
 $lang['contact_warningHeader']            = 'Warning!';
-$lang['contact_warningText']              = 'If you want to contact us, use <b>only</b> the shown contact informations on <b>this site</b> to avoid beeing scammed !';
+$lang['contact_warningText']              = 'If you want to contact us, use <b>only</b> the shown contact informations on <b>this site</b> to avoid beeing scammed!';
 // Report Link Site
 $lang['report_headText']                  = 'Report';
 $lang['report_sitename']                  = 'Name';
@@ -133,9 +131,10 @@ $lang['add_success_title']                = 'Success!';
 $lang['add_success_text']                 = 'The link was added. Thanks for your help.';
 $lang['add_fail_title']                   = 'Warning!';
 $lang['add_fail_text']                    = 'There was an error. Please try again.';
+$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['add_facebook_placeholder']         = 'Group name';
 // Hosting Site
-$lang['hosting_head']                     = '';
+$lang['hosting_head']                     = 'Hosting';
 $lang['hosting_service']                  = 'Service';
 $lang['hosting_creditcard']               = 'Creditcard';
 $lang['hosting_locations']                = 'Locations';
@@ -185,12 +184,15 @@ $lang['shops_ccv']              = 'Ccv / Dumps';
 $lang['shops_accounts']         = 'Accounts';
 $lang['shops_icq']              = 'ICQ';
 $lang['shops_drugs']            = 'Drugs';
-$lang['shops_rdp']              = 'Rdp / Smtp';
+$lang['shops_rdp']              = 'RDP / Smtp';
 $lang['shops_flood']            = 'Flood';
 $lang['shops_exploit']          = 'Exploit';
 $lang['shops_cccheck']          = 'CC Checker';
 $lang['shops_iptv']             = 'IPTV';
 $lang['shops_other']            = 'Other';
+$lang['shops_encrypted_calls']  = 'Encrypted calls';
+$lang['shops_fake_id']  		= 'Fake Id'; //New entry
+$lang['shops_spam']  			= 'Spam'; //New entry
 // Useful Category
 $lang['useful_vuln']            = 'Vulnerabilities';
 $lang['useful_unsorted']        = 'Unsorted';
@@ -218,6 +220,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Security';
 $lang['useful_hackgame']        = 'Hack Game';
 $lang['useful_serials']         = 'Serials';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
