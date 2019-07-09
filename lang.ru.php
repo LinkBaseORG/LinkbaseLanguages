@@ -11,8 +11,7 @@ $lang['navigation_home']            = 'дома';
 $lang['navigation_boards']          = 'форумы';
 $lang['navigation_boards_all']      = 'Все форумы';
 $lang['navigation_boards_noFraud']  = 'Нет мошенничества';
-$lang['navigation_boards_tor']      = 'Только Tor';
-$lang['navigation_boards_i2p']      = 'Только I2P';
+$lang['navigation_boards_torI2P']   = 'Только Tor / I2P';
 // Navigation
 $lang['navigation_blogs']           = 'Блоги';
 $lang['navigation_shops']           = 'Магазины';
@@ -38,8 +37,7 @@ $lang['navigation_information_misc_siteUptime']       = 'сайт Провел';
 // Breadcrumbs
 $lang['navigation_breadcrumb_home']       = 'дома';
 $lang['navigation_breadcrumb_noFraud']    = 'Показать только немощные доски';
-$lang['navigation_breadcrumb_tor']        = 'Показать только Доски Tor';
-$lang['navigation_breadcrumb_i2p']        = 'Показать только Доски I2P';
+$lang['navigation_breadcrumb_torI2P']     = 'Показать только Доски Tor / I2P';
 $lang['navigation_breadcrumb_search']     = 'Результаты поиска';
 $lang['navigation_breadcrumb_blogs']      = 'Security & hacking blogs';
 $lang['navigation_breadcrumb_shops']      = 'Магазины';
@@ -68,7 +66,7 @@ $lang['sidebar_statistics_offline']   = 'мертвый';
 $lang['sidebar_statistics_languages'] = 'языки';
 $lang['sidebar_statistics_total']     = 'Всего';
 $lang['sidebar_advertisement']        = 'Реклама';
-$lang['sidebar_version']              = 'Версия 4.1';
+$lang['sidebar_version']              = 'Версия';
 $lang['sidebar_version_changelog']    = 'Изменения';
 // Link us site
 $lang['linkus_htmlCodeText']      = 'Get the code to insert our banner in your website.';
@@ -134,6 +132,7 @@ $lang['add_success_title']            = 'успех!';
 $lang['add_success_text']             = 'Ссылка была добавлена. Спасибо за вашу помощь.';
 $lang['add_fail_title']               = 'Предупреждение!';
 $lang['add_fail_text']                = 'Там была ошибка. Пожалуйста, попробуйте еще раз.';
+//$lang['add_fail_text_double']			  = 'There was an error. This site seems to be added already.';
 $lang['add_facebook_placeholder']     = 'Название группы';
 // Hosting Site
 $lang['hosting_head']         = '';
@@ -219,6 +218,8 @@ $lang['useful_pastebin']        = 'Pastebin';
 $lang['useful_security']        = 'Безопасность';
 $lang['useful_hackgame']        = 'Hack Game';
 $lang['useful_serials']         = 'серийный номер';
+$lang['useful_kodi']        	= 'Kodi';
+$lang['useful_jabber']        	= 'Jabber';
 // VPN Category
 $lang['vpn_paidvpn']            = 'оплаченный VPN';
 $lang['vpn_vpninfo']            = 'VPN Информация';
@@ -257,83 +258,4 @@ $lang['out_redirectingIn']      = ' через 20 секунд.';
 $lang['out_iframeText1']        = 'Ваш браузер не может отображать iframes:';
 $lang['out_iframeText2']        = 'Нажмите здесь, чтобы открыть запрашиваемый сайт:';
 // FAQ site
-$lang['faq_head']               = 'Часто задаваемые вопросы';
-// Link
-$lang['faq_menu_link']                            = 'Ссылка';
-$lang['faq_menu_link_question_linkStatusColors']  = 'What are the meanings of the different link status colors?';
-$lang['faq_menu_link_answer_linkStatusColors']    = '<span class="fa fa-circle" style="color:green"></span> <font color="black">online (nonfraud)</font></p>
-<p><span class="fa fa-circle" style="color:green"></span> <font color="lightgrey">online </font>(fraud)</p>
-<p><span class="fa fa-circle" style="color:orange"></span> maintenance / back online soon</p>
-<p><span class="fa fa-circle" style="color:red"></span> offline</p>
-<p><span class="fa fa-globe" style="color:green"></span> Tor</i></p>
-<p><span class="fa fa-star" style="color:red"></span><font color="red"> <b>name</b> </font> Advertisement<p>
-<p><span class="fa fa-star" style="color:red"></span> Partner or banner backlink</p>
-<p><span class="fa fa-star" style="color:green"></span> Partner or backlink';
-$lang['faq_menu_link_question_linkOffline']       = 'A link is offline';
-$lang['faq_menu_link_answer_linkOffline']         = 'If there is a link which seems to be offline, you have the ability to report this site.</p>
-<p>We will review your reported link and mark the site as offline';
-$lang['faq_menu_link_question_addedLink']         = 'Я отправил ссылку, но она все еще не видна';
-$lang['faq_menu_link_answer_addedLink']           = 'We verify every submitted link within one week.</p>
-<p>If its still not visible, send us a DM via Twitter or contact us via jabber/icq.';
-$lang['faq_menu_link_question_socialData']       = 'Как получить социальные данные?';
-$lang['faq_menu_link_answer_socialData']         = 'If you open a forum link, you may get additional information in the headers bar.</p>
-<p>Complete informations you can get on the <a href="search.php">search</a> site.';
-// Privacy
-$lang['faq_menu_privacy']                            = 'уединение';
-$lang['faq_menu_privacy_question_terms']             = 'сроки';
-$lang['faq_menu_privacy_answer_terms']               = 'By accessing the website at http://link-base.org,</p>
-<p>you are agreeing to be bound by these terms of service,</p>
-<p>all applicable laws and regulations,</p>
-<p>and agree that you are responsible for compliance with any applicable local laws.</p>
-<p>If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
-<p>The materials contained in this website are protected by applicable copyright and trademark law.';
-$lang['faq_menu_privacy_question_useLicense']        = 'Использовать лицензию';
-$lang['faq_menu_privacy_answer_useLicense']          = 'a) Permission is granted to temporarily download one copy of the materials
-(information or software) on LinkBaseORG\'s website for personal, non-commercial transitory viewing only.
-This is the grant of a license, not a transfer of title, and under this license you may not:</p>
-<p>I: modify or copy the materials;</p>
-<p>II: use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</p>
-<p>III: attempt to decompile or reverse engineer any software contained on LinkBaseORG\'s website;</p>
-<p>IV: remove any copyright or other proprietary notations from the materials; or</p>
-<p>V: transfer the materials to another person or "mirror" the materials on any other server.</p>
-<p>b) This license shall automatically terminate if you violate any of these restrictions and may be terminated by LinkBaseORG at any time.
-Upon terminating your viewing of these materials or upon the termination of this license,
-you must destroy any downloaded materials in your possession whether in electronic or printed format.';
-$lang['faq_menu_privacy_question_disclaimer']        = 'отказ';
-$lang['faq_menu_privacy_answer_disclaimer']          = 'a) The materials on LinkBaseORG\'s website are provided on an \'as is\' basis. LinkBaseORG makes no warranties,
-expressed or implied, and hereby disclaims and negates all other warranties including, without limitation,
-implied warranties or conditions of merchantability, fitness for a particular purpose,
-or non-infringement of intellectual property or other violation of rights.</p>
-<p>b) Further, LinkBaseORG does not warrant or make any representations concerning the accuracy,
-likely results,
-or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.';
-$lang['faq_menu_privacy_question_limitations']       = 'Ограничения';
-$lang['faq_menu_privacy_answer_limitations']         = 'In no event shall LinkBaseORG or its suppliers be liable for any damages (including, without limitation,
-damages for loss of data or profit,
-or due to business interruption) arising out of the use or inability to use the materials on LinkBaseORG\'s website,
-even if LinkBaseORG or a LinkBaseORG authorized representative has been notified orally or in writing of the possibility of such damage.
-Because some jurisdictions do not allow limitations on implied warranties,
-or limitations of liability for consequential or incidental damages, these limitations may not apply to you.';
-$lang['faq_menu_privacy_question_accuracy']          = 'Точность материалов';
-$lang['faq_menu_privacy_answer_accuracy']            = 'The materials appearing on LinkBaseORG website could include technical, typographical, or photographic errors.
-LinkBaseORG does not warrant that any of the materials on its website are accurate, complete or current.
-LinkBaseORG may make changes to the materials contained on its website at any time without notice.
-However LinkBaseORG does not make any commitment to update the materials.';
-$lang['faq_menu_privacy_question_links']             = 'слева';
-$lang['faq_menu_privacy_answer_links']               = 'LinkBaseORG has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site.
-The inclusion of any link does not imply endorsement by LinkBaseORG of the site.
-Use of any such linked website is at the user\'s own risk.';
-$lang['faq_menu_privacy_question_modifications']     = 'изменения';
-$lang['faq_menu_privacy_answer_modifications']       = 'LinkBaseORG may revise these terms of service for its website at any time without notice.
-By using this website you are agreeing to be bound by the then current version of these terms of service.';
-$lang['faq_menu_privacy_question_governingLaw']      = 'Применимое право';
-$lang['faq_menu_privacy_answer_governingLaw']        = 'These terms and conditions are governed by and construed in accordance with the laws of Malaysia
-and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.';
-$lang['faq_menu_privacy_question_piwik']             = 'Matomo (previously Piwik)';
-$lang['faq_menu_privacy_answer_piwik']               = 'Отключить отслеживание пользователей через Matomo (раньше Piwik)';
-// Advertisement
-$lang['faq_menu_advertisement']                      = 'Реклама';
-$lang['faq_menu_advertisement_question_banner']      = 'Реклама';
-$lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
-// New Strings
 ?>
