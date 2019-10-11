@@ -340,4 +340,11 @@ $lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking vi
 $lang['faq_menu_advertisement']                      = 'Advertisement';
 $lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
 $lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
-?>
+
+$lang['example']                                     = 'Example';
+$lang['available_categories']                        = 'Available Categories';
+$lang['result']                                      = 'Result';
+$lang['api_documentation']                           = 'API Documentation';
+
+$lang['contact_verified_info']                       = 'Please don\'t contact us here, as we don\'t watch inbox regularly!';
+$lang['contact_verified']                            = 'Verified Accounts:';
