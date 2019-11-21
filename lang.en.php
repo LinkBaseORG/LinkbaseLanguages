@@ -54,7 +54,7 @@ $lang['navigation_breadcrumb_linkUs']     = 'Link us';
 $lang['navigation_breadcrumb_changelog']  = 'Version changelog';
 $lang['navigation_breadcrumb_faq']        = 'FAQ';
 // Subnavigation
-$lang['subnavigation_lastDbUpdate']       = 'Last db update';
+$lang['subnavigation_lastDbUpdate']       = 'Last update';
 // Sidebar
 $lang['sidebar_searchPlaceholder']        = 'Search';
 $lang['sidebar_linkQueue']                = 'Link queue';
@@ -208,7 +208,6 @@ $lang['useful_challenges']      = 'Challenges';
 $lang['useful_securemail']      = 'Secure Mail';
 $lang['useful_cardsharing']     = 'Cardsharing';
 $lang['useful_toplist']         = 'Toplists';
-$lang['useful_nfo']             = 'NFO';
 $lang['useful_ddosprotect']     = 'DDoS Protection';
 $lang['useful_cryptocurrency']  = 'Cryptocurrency';
 $lang['useful_documentation']   = 'Documentation';
@@ -222,6 +221,8 @@ $lang['useful_hackgame']        = 'Hack Game';
 $lang['useful_serials']         = 'Serials';
 $lang['useful_kodi']        	= 'Kodi';
 $lang['useful_jabber']        	= 'Jabber';
+$lang['useful_irc']         	= 'IRC';    //NEW
+$lang['useful_exchanger']       = 'Exchanger';    //NEW
 // VPN Category
 $lang['vpn_paidvpn']            = 'Paid VPN';
 $lang['vpn_vpninfo']            = 'VPN Info';
@@ -249,6 +250,9 @@ $lang['warez_porn']             = 'Porn';
 $lang['warez_usenet']           = 'NZB / Usenet';
 $lang['warez_scripts']          = 'Scripts';
 $lang['warez_torrent']          = 'Torrent';
+$lang['warez_nfo']              = 'NFO';
+$lang['warez_moviestream']      = 'Moviestream'; //NEW
+$lang['warez_software']         = 'Software';   //NEW
 // Board Redirection Site
 $lang['out_home']               = 'Home';
 $lang['out_report']             = 'Report deadlink';
@@ -266,12 +270,12 @@ $lang['faq_head']               = 'Frequently Asked Questions';
 // Link
 $lang['faq_menu_link']                            = 'Link';
 $lang['faq_menu_link_question_linkStatusColors']  = 'What are the meanings of the different link status colors?';
-$lang['faq_menu_link_answer_linkStatusColors']    = '<span class="fa fa-circle" style="color:green"></span> <font color="black">online (nonfraud)</font></p>
-<p><span class="fa fa-circle" style="color:green"></span> <font color="lightgrey">online </font>(fraud)</p>
+$lang['faq_menu_link_answer_linkStatusColors']    = '<span class="fa fa-circle" style="color:green"></span> <span style="color: black; ">online (nonfraud)</span></p>
+<p><span class="fa fa-circle" style="color:green"></span> <span style="color: lightgrey; ">online </span>(fraud)</p>
 <p><span class="fa fa-circle" style="color:orange"></span> maintenance / back online soon</p>
 <p><span class="fa fa-circle" style="color:red"></span> offline</p>
 <p><span class="fa fa-globe" style="color:green"></span> Tor</i></p>
-<p><span class="fa fa-star" style="color:red"></span><font color="red"> <b>name</b> </font> Advertisement<p>
+<p><span class="fa fa-star" style="color:red"></span><span style="color: red; "> <b>name</b> </span> Advertisement<p>
 <p><span class="fa fa-star" style="color:red"></span> Partner or banner backlink</p>
 <p><span class="fa fa-star" style="color:green"></span> Partner or backlink';
 $lang['faq_menu_link_question_linkOffline']       = 'A link is offline';
@@ -336,10 +340,6 @@ $lang['faq_menu_privacy_answer_governingLaw']        = 'These terms and conditio
 and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.';
 $lang['faq_menu_privacy_question_piwik']             = 'Matomo (previously Piwik)';
 $lang['faq_menu_privacy_answer_piwik']               = 'Disable user tracking via Piwik';
-// Advertisement
-$lang['faq_menu_advertisement']                      = 'Advertisement';
-$lang['faq_menu_advertisement_question_banner']      = 'Advertisement';
-$lang['faq_menu_advertisement_answer_banner']        = 'Big banner -> small banner -> custom banner';
 
 $lang['example']                                     = 'Example';
 $lang['available_categories']                        = 'Available Categories';
@@ -348,3 +348,6 @@ $lang['api_documentation']                           = 'API Documentation';
 
 $lang['contact_verified_info']                       = 'Please don\'t contact us here, as we don\'t watch inbox regularly!';
 $lang['contact_verified']                            = 'Verified Accounts:';
+
+$lang['navigation_information_login']                = 'Login';
+$lang['add_blockchain']                              = 'Blockchain URL';
